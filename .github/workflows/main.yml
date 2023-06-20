@@ -7,6 +7,8 @@ jobs:
       run:
         shell: bash    
     steps:
+      - uses: actions/checkout@v3
+      
       - run: echo We warm up
       
       - uses: ClydeDz/github-composite-actions-poc/.github/actions/jog@main
