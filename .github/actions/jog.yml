@@ -1,0 +1,8 @@
+name: Jog
+
+# note this is not jobs
+runs:
+  using: "composite"
+  steps:
+    - run: echo We jog
+      shell: bash
