@@ -1,0 +1,14 @@
+name: Composite actions poc
+on: [workflow_dispatch]
+jobs:
+  go_run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo We warm up
+        shell: bash
+        
+      - run: echo We jog
+        shell: bash
+        
+      - run: echo We run
+        shell: bash
