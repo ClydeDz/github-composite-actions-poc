@@ -2,6 +2,7 @@ name: Composite actions poc
 on: [workflow_dispatch]
 jobs:
   go_run:
+    name: Go run
     runs-on: ubuntu-latest
     defaults:
       run:
