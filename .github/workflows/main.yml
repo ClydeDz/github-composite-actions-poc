@@ -16,3 +16,9 @@ jobs:
       - uses: ClydeDz/github-composite-actions-poc/.github/actions/run@main
         
       - run: echo We nur
+      
+      - uses: ClydeDz/custom-githubaction-poc@main
+        with:
+          inputDirectory: 'public/*'
+          outputDirectory: 'dist'
+          jpgCompressionQuality: 50
