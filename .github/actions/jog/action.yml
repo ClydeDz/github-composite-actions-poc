@@ -4,5 +4,5 @@ name: Jog
 runs:
   using: "composite"
   steps:
-    - run: echo We jog
+    - run: echo We jog from composite action
       shell: bash
