@@ -4,5 +4,5 @@ name: Run
 runs:
   using: "composite"
   steps:
-    - run: echo We run
+    - run: echo We run from composite action
       shell: bash
