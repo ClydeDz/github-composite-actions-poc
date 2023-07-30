@@ -10,7 +10,7 @@ jobs:
     steps:      
       - run: echo We warm up
       
-      - uses: ./.github/actions/jog@main  
+      - uses: ClydeDz/github-composite-actions-poc/.github/actions/jog@main  
       
       - uses: ClydeDz/github-composite-actions-poc/.github/actions/run@main
       
